@@ -3,7 +3,6 @@ import Image from "next/image";
 export default function CoursesSection() {
   return (
     <div className="bg-gray-50 py-16">
-      {/* Trusted Companies Section */}
       <div className="text-center mb-12">
         <p className="text-gray-600 text-sm font-medium">
           Trusted by 2000+ companies worldwide.
@@ -17,7 +16,6 @@ export default function CoursesSection() {
         </div>
       </div>
 
-      {/* Heading */}
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold text-gray-800">Explore Courses By Category</h2>
         <p className="text-gray-600 mt-2">
@@ -25,7 +23,6 @@ export default function CoursesSection() {
         </p>
       </div>
 
-      {/* Course Categories */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {[
           { title: "Design & Development", courses: "50+ Courses Available", icon: "icon-design" },
@@ -57,9 +54,8 @@ export default function CoursesSection() {
         ))}
       </div>
 
-      {/* View All Courses Button */}
       <div className="text-center mt-10">
-        <button className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+        <button className="px-6 py-3 bg-neutral-100 text-black rounded-lg hover:bg-blue-700">
           View All Courses
         </button>
       </div>

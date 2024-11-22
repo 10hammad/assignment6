@@ -9,7 +9,7 @@ const courses = [
     category: "Design",
     description: "Learn the basics of UX/UI design, create stunning prototypes.",
     price: "$40",
-    image: "/course1.jpg",
+    image: "/UIUX.jpg",
     type: "Popular",
   },
   {
@@ -18,7 +18,7 @@ const courses = [
     category: "Programming",
     description: "Learn Python from scratch and start coding.",
     price: "$60",
-    image: "/course2.jpg",
+    image: "/Python.jpg",
     type: "Recommended",
   },
   {
@@ -27,7 +27,7 @@ const courses = [
     category: "Business",
     description: "Analyze data efficiently with beginner-friendly tools.",
     price: "$50",
-    image: "/course3.jpg",
+    image: "/Analytics.jpeg",
     type: "Best Price",
   },
   {
@@ -36,7 +36,7 @@ const courses = [
     category: "Art",
     description: "Master art techniques to improve your creativity.",
     price: "$45",
-    image: "/course4.jpg",
+    image: "/Art.jpeg",
     type: "Popular",
   },
   {
@@ -45,7 +45,7 @@ const courses = [
     category: "Law",
     description: "Understand the legal framework that governs societies.",
     price: "$80",
-    image: "/course5.jpg",
+    image: "/Law.jpeg",
     type: "Recommended",
   },
   {
@@ -54,7 +54,7 @@ const courses = [
     category: "Tech",
     description: "Build professional websites without writing code.",
     price: "$70",
-    image: "/course6.jpg",
+    image: "/Web.png",
     type: "Best Price",
   },
 ];
@@ -116,7 +116,7 @@ export default function Courses() {
                 {course.description}
               </p>
               <div className="flex items-center justify-between">
-                <button className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm hover:bg-blue-700">
+                <button className="bg-neutral-100 text-black px-4 py-2 rounded-md text-sm hover:bg-blue-700">
                   Enroll Now
                 </button>
                 <span className="text-gray-800 font-semibold">
