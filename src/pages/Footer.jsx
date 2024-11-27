@@ -68,7 +68,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Footer Section */}
+      
         <div className="flex flex-wrap justify-between items-center border-t border-gray-200 pt-4">
           <p className="text-gray-500 text-sm">
             © 2023 Ddsgnr. All rights reserved.
