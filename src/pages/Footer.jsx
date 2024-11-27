@@ -20,7 +20,7 @@ export default function Footer() {
             />
             <button
               type="submit"
-              className="bg-blue-500 text-white px-4 py-2 rounded-r hover:bg-blue-600"
+              className="bg-stone-800 text-white px-4 py-2 rounded-r hover:bg-blue-600"
             >
               Subscribe
             </button>
